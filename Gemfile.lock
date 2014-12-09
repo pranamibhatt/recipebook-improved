@@ -41,8 +41,6 @@ GEM
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    call-me (0.0.2.3)
-      refining
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.4)
@@ -65,16 +63,10 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.2)
-    ffi (1.9.6)
-    ffi-extra (0.1.0)
-      ffi
-    ffi-inline (0.0.4.3)
-      ffi (>= 0.4.0)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
     hike (1.2.3)
     i18n (0.7.0.beta1)
-    iso-639 (0.2.5)
     jbuilder (2.2.4)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -142,7 +134,6 @@ GEM
     rdoc (4.1.2)
       json (~> 1.4)
     ref (1.0.5)
-    refining (0.0.5.5)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
     sass (3.4.8)
@@ -164,11 +155,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (~> 2.8)
-    tesseract-ocr (0.1.6)
-      call-me
-      ffi-extra
-      ffi-inline
-      iso-639
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -213,7 +199,6 @@ DEPENDENCIES
   sass-rails (~> 5.0.0.beta1)
   sdoc (~> 0.4.0)
   spring
-  tesseract-ocr
   therubyracer
   tinymce-rails
   turbolinks

@@ -11,7 +11,7 @@ gem 'rails', '4.2.0.beta4'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'devise'
-gem 'tesseract-ocr'
+#gem 'tesseract-ocr'
 gem 'pg'
 
 # Use SCSS for stylesheets
